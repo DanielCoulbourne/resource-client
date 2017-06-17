@@ -1,5 +1,5 @@
 {
-  "name": "resource-client",
+  "name": "es6-resource-client",
   "version": "0.1.0",
   "description": "A simple HTTP client wrapper with methods built to mirror Laravel's resource controller methods.",
   "main": "Resource.js",

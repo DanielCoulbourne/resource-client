@@ -1,4 +1,4 @@
-# Resource Client
+# Resource Client ( es6-resource-client )
 
 ## An ES6 HTTP client wrapper with methods built to mirror [Laravel's resource controller methods](https://laravel.com/docs/5.4/controllers#resource-controllers).
 
@@ -16,7 +16,7 @@ To lighen the cognitive load of switching between Laravel and Javascript I decid
 
 First run:
 
-`npm install --save danielcoulbourne/resource-client`
+`npm install --save es6-resource-client`
 
 Then:
 
@@ -28,7 +28,7 @@ Then:
 Example:
 
 ```
-import Resource from 'resource-client';
+import Resource from 'es6-resource-client';
 
 Resource.index('users').then(users => {
 	console.log(users);
