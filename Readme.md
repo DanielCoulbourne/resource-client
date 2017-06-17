@@ -42,21 +42,25 @@ All methods take a string as their first parameter – the name of the resource 
 ### Index – index(resource)
 
 Index does not take any additional parameters. Ex. - 
+
 `Resource.index('users')`
 
 ### Store – store(resource, record)
 
 Store takes a second parameter, an object with the record to be stored. Ex. - 
+
 `Resource.store('users', { email: 'daniel@tighten.co' })`
 
 ### Show – show(resource, recordId)
 
 Show takes a second parameter, the ID of the associated record. Ex. - 
+
 `Resource.show('users', 1)`
 
 ### Update – update(resource, record)
 
 Update takes a second parameter, an object with the record to be updated. This object must, at a minimum, include the ID of the record in the database. Ex. - 
+
 `Resource.update('users', { id: 1, email: 'coulbourne@tighten.co' })`
 
 ### Destroy - destroy(resource, id)
