@@ -10,6 +10,7 @@
 *
 ***/
 
+import axios from 'axios';
 
 class Resource {
     constructor() {
