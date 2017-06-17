@@ -1,0 +1,33 @@
+{
+  "name": "resource-client",
+  "version": "0.1.0",
+  "description": "A simple HTTP client wrapper with methods built to mirror Laravel's resource controller methods.",
+  "main": "Resource.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DanielCoulbourne/resource-client.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "http",
+    "laravel",
+    "resource",
+    "client",
+    "crud",
+    "react",
+    "vuejs"
+  ],
+  "author": "Daniel Coulbourne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielCoulbourne/resource-client/issues"
+  },
+  "homepage": "https://github.com/DanielCoulbourne/resource-client#readme",
+  "dependencies": {
+    "axios": "^0.16.2"
+  }
+}
